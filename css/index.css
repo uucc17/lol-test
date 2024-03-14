@@ -9,7 +9,7 @@ main {
 .title,
 .rating,
 .person,
-.startBtn {
+.d-grid {
    margin-top: 55px;
 }
 
@@ -26,6 +26,7 @@ main {
    overflow: hidden;
    border-radius: 20px;
    box-shadow: 0 0 2px #b3acac;
+   margin-left: 108px;
 }
 
 .rating__result {
