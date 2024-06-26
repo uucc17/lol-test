@@ -34,11 +34,8 @@ function handleAnswer(answer) {
 }
 
 function displayResult() {
-    let result = score.A > score.B ? '프로게이머 구마유시 (이민형)' : '프로게이머 케리아 (류민석)';
-    queryElement.textContent = `당신의 이상형은 ${result}입니다!`;
-    imageElement.src = ''; // 결과 이미지가 있다면 추가
-    answerElementA.style.display = 'none';
-    answerElementB.style.display = 'none';
+    let resultPage = score.A > score.B ? 'resultA.html' : 'resultB.html';
+    window.location.href = resultPage;
 }
 
 answerElementA.addEventListener('click', () => handleAnswer('A'));
