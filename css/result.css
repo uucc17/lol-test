@@ -1,0 +1,10 @@
+main {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.result img{
+    width: 500px;
+}
