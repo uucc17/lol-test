@@ -6,6 +6,11 @@ main {
    overflow: hidden;
 }
 
+img{
+   width: 500px;
+   margin-bottom: 50px;
+}
+
 .title,
 .rating,
 .person,
@@ -26,7 +31,7 @@ main {
    overflow: hidden;
    border-radius: 20px;
    box-shadow: 0 0 2px #b3acac;
-   margin-left: 108px;
+   margin-left: 168px;
 }
 
 .rating__result {
@@ -53,6 +58,6 @@ main {
 
 /* 시작 버튼 */
 .startBtn{
-   width: 400px;
-   height: 45px;
+   width: 500px;
+   height: 50px;
 }
